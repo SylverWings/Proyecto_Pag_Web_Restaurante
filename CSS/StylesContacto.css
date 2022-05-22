@@ -1,5 +1,5 @@
 body {
-
+    
     background-color: #E7DBC0;
     display: flex;
     flex-direction: column;
@@ -7,6 +7,7 @@ body {
     padding: 0em;
     width: 100%;
 }
+
 
 * {
     padding: 0 !important;
@@ -20,23 +21,20 @@ body {
     width: 100%;
 }
 
+
+
 .margenIzquierdo {
     display: flex;
     background-color: #E7DBC0;
-    width: 20%;
+    width: 30%;
     height: 100%;
 
-}
-
-.foto {
-
-    width: 100%;
 }
 
 .margenDerecho {
     display: flex;
     background-color: #E7DBC0;
-    width: 20%;
+    width: 30%;
     height: 100%;
 }
 
@@ -53,64 +51,37 @@ body {
 
 .cuerpo {
 
-    background-color: white;
+    background-color: #E7DBC0;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     margin: 0 auto;
     height: 100%;
     width: 80%;
 
 }
 
-@media (max-width: 500px) {
-    .cuerpo {
 
-        flex-direction: column;
-    }
-}
 
-.bienvenidos {
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 2em;
-}
-
-.nuestroMenu {
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 2em;
+#carouselExampleControls {
+    size-adjust: auto;
 }
 
 
-@media (max-width: 500px) {
-    .nuestroMenu {
+@media (max-width: 500px){
 
-        flex-direction: column;
-    }
-}
-
-.cruz {
-
-    width: 40%;
-    margin: 2em;
-}
-
-@media (max-width: 500px) {
-    .cruz {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
+    .mapa{
+        size-adjust: auto;
     }
 }
 
 p {
     display: flex;
     margin: 2em;
+}
+
+.datos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
