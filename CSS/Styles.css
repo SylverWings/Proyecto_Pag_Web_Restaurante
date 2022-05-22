@@ -1,0 +1,27 @@
+
+
+body {
+    
+    background-color: #E7DBC0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0em;
+    padding: 0em;
+}
+
+.container-fluid{
+
+    background-color: #C87620;
+    margin: 0;
+    padding: 0;
+}
+
+.cuerpo{
+
+    background-color: #B3B3A0;
+    width: 100em;
+    margin-left: 10em;
+    margin-right: 10em;
+
+}
