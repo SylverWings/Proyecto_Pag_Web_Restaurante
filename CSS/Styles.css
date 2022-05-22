@@ -3,23 +3,31 @@
 body {
     
     background-color: #E7DBC0;
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
+    display: flex;    
+    flex-direction: column;
     margin: 0em;
     padding: 0em;
+    width: 100%;
 }
 
 .margenIzquierdo{
 
-    width: 10em;
     background-color: #E7DBC0;
+    width: 20%;
+    height: 100%;
+
+}
+
+.foto{
+
+    width: 100%;
 }
 
 .margenDerecho{
 
-    width: 10em;
     background-color: #E7DBC0;
+    width: 20%;
+    height: 100%;
 }
 
 
@@ -27,18 +35,42 @@ body {
 
 .container-fluid{
 
-    background-color: #C87620;
+    background-color: #988686;
     margin: 0;
     padding: 0;
-    
+    width: 100%;
 }
 
 .cuerpo{
 
-    background-color: #B3B3A0;
-    width: 100em;
+    background-color: #D1D0D0;
+    display: flex;
+    flex-direction: column;
     margin-left: 10em;
     margin-right: 10em;
     height: 100vh;
+    width: 80%;
 
+}
+
+.bienvenidos{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nuestroMenu{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#cruz{
+
+    display: flex;
+    flex-direction: row;
 }
