@@ -10,6 +10,17 @@ body {
     width: 100%;
 }
 
+*{
+    padding: 0!important;
+}
+
+
+.cabecera{
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+}
+
 .margenIzquierdo{
     display: flex;
     background-color: #E7DBC0;
@@ -46,8 +57,7 @@ body {
     background-color: #D1D0D0;
     display: flex;
     flex-direction: column;
-    margin-left: 10em;
-    margin-right: 10em;
+    margin: 0 auto;
     height: 100%;
     width: 80%;
 
@@ -86,18 +96,9 @@ body {
     }
 }
 
-#cruz{
-
-    display: flex;
-    flex-direction: row;
-    
-}
-
 .cruz{
 
-    display: flex;
-    width: 30em;
-    height: 20em;
+    width: 40%;
     margin: 2em;
 }
 

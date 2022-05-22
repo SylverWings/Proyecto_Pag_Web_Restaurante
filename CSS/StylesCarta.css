@@ -8,11 +8,17 @@ body {
     width: 100%;
 }
 
-.all{
-
+*{
+    padding: 0!important;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+
+.cabecera{
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+}
 
 
 
