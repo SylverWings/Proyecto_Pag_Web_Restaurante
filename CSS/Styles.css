@@ -5,16 +5,32 @@ body {
     background-color: #E7DBC0;
     display: flex;
     justify-content: center;
-    align-items: center;
+    flex-direction: row;
     margin: 0em;
     padding: 0em;
 }
+
+.margenIzquierdo{
+
+    width: 10em;
+    background-color: #E7DBC0;
+}
+
+.margenDerecho{
+
+    width: 10em;
+    background-color: #E7DBC0;
+}
+
+
+
 
 .container-fluid{
 
     background-color: #C87620;
     margin: 0;
     padding: 0;
+    
 }
 
 .cuerpo{
@@ -23,5 +39,6 @@ body {
     width: 100em;
     margin-left: 10em;
     margin-right: 10em;
+    height: 100vh;
 
 }
